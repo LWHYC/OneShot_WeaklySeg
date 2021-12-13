@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+./cpp/geodesic_distance.cpp
+./cpp/geodesic_distance_2d.cpp
+./cpp/geodesic_distance_3d.cpp
+./cpp/util.cpp
+./cpp/wrap_py3.cpp
+GeodisTK.egg-info/PKG-INFO
+GeodisTK.egg-info/SOURCES.txt
+GeodisTK.egg-info/dependency_links.txt
+GeodisTK.egg-info/top_level.txt
+cpp/geodesic_distance_2d.h
+cpp/geodesic_distance_3d.h
+cpp/util.h
