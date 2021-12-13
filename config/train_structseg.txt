@@ -1,0 +1,39 @@
+[data]
+data_root             = ../../Data/structseg
+image_name            = norm_rdata.nii.gz
+label_name            = rlabel.nii.gz
+coarseg_name          = geo_seg.nii.gz
+dis_name              = 
+concat_coarseg        = False
+concat_distance       = False
+batch_size            = 8
+iter_num              = 16000
+train_patch_size      = [16, 64, 64]
+test_patch_size       = [16, 64, 64]
+stride                = [8, 64, 64]
+device_ids      = [0,1,2,3]
+
+[network]
+net_type                = Unet
+base_feature_number     = 12
+drop_rate               = 0.5
+dilation                = 1
+depth                   = False
+class_num               = 2
+input_channel           = 1
+
+[training]
+load_pretrained_model   = False
+pretrained_model_path   = weights/Unet/
+learning_rate      = 1e-4
+decay              = 1e-4
+maximal_epoch      = 150
+num_worker         = 8
+load_memory        = True
+start_iteration    = 0
+train_step         = 1
+test_step          = 1
+print_step         = 40
+random_seed        = 1337
+model_save_prefix  = weights/Unet/Unet_12_16_64
+best_dice          = 0.1

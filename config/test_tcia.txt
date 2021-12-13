@@ -1,0 +1,29 @@
+[data]
+data_root             = ../../Data/TCIA
+image_name            = norm_rdata.nii.gz
+label_name            = rlabel.nii.gz
+save_seg              = True
+seg_name              = spleen_coarseg.nii.gz
+adapt_transform       = False
+coarseg_name          = geo_seg.nii.gz
+concat_coarseg        = False
+batch_size            = 1
+iter_num              = 2000
+test_patch_size       = [32, 128, 128]
+stride                = [16, 64, 64]
+class_wanted          = 1
+
+[network]
+net_type                = Unet
+base_feature_number     = 12
+drop_rate               = 0.5
+depth                   = False
+dilation                = 1
+class_num               = 2
+input_channel           = 1
+
+
+[testing]
+load_pretrained_model    = True
+load_adapt_transform     = False
+pretrained_model_path    = weights/Unet/Unet_12_32_128_athexp_tcia_coarse_spleen_pad2_24_0.8115799535785385.pkl
