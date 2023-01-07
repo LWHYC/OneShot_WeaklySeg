@@ -7,7 +7,8 @@ Deep neural networks typically  require accurate and a large number of annotatio
 Pytorch >= 1.4, SimpleITK >= 1.2, scipy >= 1.3.1, nibabel >= 2.5.0, GeodisTK and some common packages.
 
 ## Usages
-- Prepare StructSeg2019 task1 data and split them into three folders: train, valid and test. (Each patient's CT image and label should be in a individual folder in train, valid or test folder) ;
+### Dataset
+You could download the processed dataset from: [StructSeg](https://structseg2019.grand-challenge.org/Home/) task1 (Organ-at-risk segmentation from head & neck CT scans): [BaiDu Yun](https://pan.baidu.com/s/1VV8VqJ39wKvlF-mh8b6IVg?pwd=ic6g) or [Google Drive](https://drive.google.com/file/d/1TlMfWvgSd3kAh3Eq80DVoboZ42FbLMvE/view?usp=sharing) into `data/` and unzip them. For TCIA-Pancreas, please cite the original paper (Deeporgan: Multi-level deep convolutional networks for automated pancreas segmentation).
 ### Train 
 - Preprocess the data by `data_process/Resample_and_norm_data.py`;
 - Change the `data_root` in `config/train_prnet_structseg.txt` to your data root;
