@@ -1,0 +1,2 @@
+CUDA_VISIBLE_DEVICES=0 python inference/seg_coarse.py --config_path config/test/test_coarse_structseg.txt &&
+CUDA_VISIBLE_DEVICES=0 python inference/seg_coarse.py --config_path config/test/test_coarse_tcia.txt

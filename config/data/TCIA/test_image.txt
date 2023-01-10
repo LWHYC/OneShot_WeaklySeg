@@ -1,0 +1,10 @@
+data/TCIA/test/0039/rdata.nii.gz
+data/TCIA/test/0040/rdata.nii.gz
+data/TCIA/test/0041/rdata.nii.gz
+data/TCIA/test/0042/rdata.nii.gz
+data/TCIA/test/0043/rdata.nii.gz
+data/TCIA/test/0044/rdata.nii.gz
+data/TCIA/test/0045/rdata.nii.gz
+data/TCIA/test/0046/rdata.nii.gz
+data/TCIA/test/0047/rdata.nii.gz
+data/TCIA/test/0048/rdata.nii.gz

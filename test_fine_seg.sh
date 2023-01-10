@@ -1,0 +1,2 @@
+CUDA_VISIBLE_DEVICES=0 python inference/seg_fine.py --config_path config/test/test_fine_structseg.txt &&
+CUDA_VISIBLE_DEVICES=0 python inference/seg_fine.py --config_path config/test/test_fine_tcia.txt

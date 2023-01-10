@@ -1,0 +1,8 @@
+data/HaN_StructSeg/test/43/coarseg.nii.gz
+data/HaN_StructSeg/test/44/coarseg.nii.gz
+data/HaN_StructSeg/test/45/coarseg.nii.gz
+data/HaN_StructSeg/test/46/coarseg.nii.gz
+data/HaN_StructSeg/test/47/coarseg.nii.gz
+data/HaN_StructSeg/test/48/coarseg.nii.gz
+data/HaN_StructSeg/test/49/coarseg.nii.gz
+data/HaN_StructSeg/test/50/coarseg.nii.gz

@@ -1,0 +1,10 @@
+data/TCIA/test/0039/coarseg.nii.gz
+data/TCIA/test/0040/coarseg.nii.gz
+data/TCIA/test/0041/coarseg.nii.gz
+data/TCIA/test/0042/coarseg.nii.gz
+data/TCIA/test/0043/coarseg.nii.gz
+data/TCIA/test/0044/coarseg.nii.gz
+data/TCIA/test/0045/coarseg.nii.gz
+data/TCIA/test/0046/coarseg.nii.gz
+data/TCIA/test/0047/coarseg.nii.gz
+data/TCIA/test/0048/coarseg.nii.gz

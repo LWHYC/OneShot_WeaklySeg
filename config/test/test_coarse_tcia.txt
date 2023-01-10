@@ -1,0 +1,38 @@
+[data]
+image_list            =  config/data/StructSeg/image.txt
+support_image         =  data/HaN_structseg/train/9/rdata.nii.gz
+support_scribble      =  data/HaN_structseg/train/9/scribble.nii.gz
+save_seg_name         = coarseg.nii.gz
+judge_noise           = True
+noise_thresh          = 0.1
+iter_num              = 4000
+batch_size            = 1
+patch_size            = [48, 128, 128]
+stride                = [32, 96, 96]
+class_num             = 1
+class_wanted          = [1,6,7,8]
+step                  = [1, 1, 1, 2]
+
+
+[coarse_pnetwork]
+net_type                = PRNet
+net_name                = PRNet
+base_feature_number     = 16
+dilation                = 1
+class_num               = 1
+input_channel           = 1
+distance_ratio          = [700, 500, 500]
+
+[fine_pnetwork]
+net_type                = PRNet
+net_name                = PRNet
+base_feature_number     = 16
+dilation                = 1
+class_num               = 1
+input_channel           = 1
+distance_ratio          = [60, 60, 60]
+
+[testing]
+load_weight        = True
+coarse_pnet_load_path   = weights/PRNet/PRNet_16_structseg_large_700_500_48_128_best.tar
+fine_pnet_load_path = weights/PRNet/PRNet_16_structseg_small_60_48_128_best.tar

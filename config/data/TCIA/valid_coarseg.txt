@@ -1,0 +1,10 @@
+data/TCIA/valid/0002/coarseg.nii.gz
+data/TCIA/valid/0003/coarseg.nii.gz
+data/TCIA/valid/0004/coarseg.nii.gz
+data/TCIA/valid/0005/coarseg.nii.gz
+data/TCIA/valid/0006/coarseg.nii.gz
+data/TCIA/valid/0007/coarseg.nii.gz
+data/TCIA/valid/0008/coarseg.nii.gz
+data/TCIA/valid/0009/coarseg.nii.gz
+data/TCIA/valid/0010/coarseg.nii.gz
+data/TCIA/valid/0011/coarseg.nii.gz

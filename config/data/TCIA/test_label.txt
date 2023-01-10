@@ -1,0 +1,10 @@
+data/TCIA/test/0039/rlabel.nii.gz
+data/TCIA/test/0040/rlabel.nii.gz
+data/TCIA/test/0041/rlabel.nii.gz
+data/TCIA/test/0042/rlabel.nii.gz
+data/TCIA/test/0043/rlabel.nii.gz
+data/TCIA/test/0044/rlabel.nii.gz
+data/TCIA/test/0045/rlabel.nii.gz
+data/TCIA/test/0046/rlabel.nii.gz
+data/TCIA/test/0047/rlabel.nii.gz
+data/TCIA/test/0048/rlabel.nii.gz

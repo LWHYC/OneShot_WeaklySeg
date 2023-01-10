@@ -1,0 +1,39 @@
+[data]
+train_image_list      = ../config/data/StructSeg/train_image.txt
+valid_image_list      = ../config/data/StructSeg/valid_image.txt
+iter_num              = 8000
+batch_size            = 8
+patch_size            = [48, 128, 128]
+output_feature        = False
+distance_ratio        = [60, 60, 60]
+
+[prnetwork]
+net_type                = PRNet
+base_feature_number     = 16
+drop_rate               = 0
+dilation                = 1
+slice_margin            = 3
+class_num               = 1
+input_channel           = 1
+
+[training]
+load_weight        = False
+prnet_load_path     = ../weights/PRNet/
+learning_rate      = 1e-4
+decay              = 1e-4
+maximal_epoch      = 300
+snapshot_epoch     = 10
+num_workers        = 32
+parallel_training  = True
+load_memory        = False
+small_move         = True
+fluct_range        = [60, 60, 60]
+start_iteration    = 0
+train_step         = 1
+test_step          = 1
+test_iter          = 10
+print_step         = 40
+random_seed        = 133
+model_pre_trained  = 
+prnet_save_name  = ../weights/PRNet/PRNet_16_structseg_small_60_48_128
+best_loss          = 1000

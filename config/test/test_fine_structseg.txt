@@ -1,0 +1,26 @@
+[data]
+test_image_list       = config/data/StructSeg/test_image.txt
+test_label_list       = config/data/StructSeg/test_label.txt
+test_coarseg_list     = config/data/StructSeg/test_coarseg.txt
+save_seg_name         = fine_seg.nii.gz
+concat_coarseg        = False
+batch_size            = 1
+iter_num              = 2000
+class_wanted          = [1,6,7]
+test_patch_size       = [96, 96, 96]
+stride                = [48, 48, 96]
+
+
+[network]
+net_type                = Unet
+base_feature_number     = 12
+drop_rate               = 0.5
+depth                   = False
+dilation                = 1
+class_num               = 4
+input_channel           = 1
+
+
+[testing]
+load_pretrained_model    = True
+pretrained_model_path    = weights/Unet/Unet_12_96_96_cedc_structseg_plc_best.tar

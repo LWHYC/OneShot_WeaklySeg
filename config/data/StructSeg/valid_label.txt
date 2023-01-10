@@ -1,0 +1,8 @@
+data/HaN_StructSeg/valid/1/rlabel.nii.gz
+data/HaN_StructSeg/valid/2/rlabel.nii.gz
+data/HaN_StructSeg/valid/3/rlabel.nii.gz
+data/HaN_StructSeg/valid/4/rlabel.nii.gz
+data/HaN_StructSeg/valid/5/rlabel.nii.gz
+data/HaN_StructSeg/valid/6/rlabel.nii.gz
+data/HaN_StructSeg/valid/7/rlabel.nii.gz
+data/HaN_StructSeg/valid/8/rlabel.nii.gz
