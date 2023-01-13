@@ -30,12 +30,14 @@ Prepare your data in `data/Your_Data_Name/`. The data format should be like:
           ├── rlabel.nii.gz
         ├── ...
 ```
-Actually, you can customize the names of your images and labels. Just record their pathes in the corresponding txt files in `config/data/Your_Data_Name`. 
+Actually, you can customize the names of your images and labels. Just record their pathes in the corresponding txt files in `config/data/Your_Data_Name`. You can refer to the files in `config/data/TCIA/` as an example.
 ### Train PRNet
 - To train the PRNet, run `bash train_prnet.sh`.
 ### Generate Coarse Segmentations
 - Run `bash test_coarseg_seg.sh` for coarse segmentation.
+It will generate a coarse segmentation file named `coarseg.nii.gz` in each image folder.
 ### Train PLC Segmentation Network
 - Run `bash train_plc.sh`
 ### Generate Fine Segmentations
 - Run `bash test_fine_seg.sh`
+It will generate a coarse segmentation file named `coarseg.nii.gz` in each image folder.
