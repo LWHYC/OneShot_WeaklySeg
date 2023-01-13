@@ -38,5 +38,5 @@ train_step         = 1
 test_step          = 1
 print_step         = 40
 random_seed        = 1337
-model_save_name  = weights/Unet/Unet_12_96_96_cedc_structseg_plc
+model_save_name  = weights/Unet_12_96_96_cedc_structseg_plc
 best_dice          = 0.1
