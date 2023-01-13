@@ -34,5 +34,5 @@ test_iter          = 10
 print_step         = 40
 random_seed        = 133
 model_pre_trained  = 
-prnet_save_name  = weights/PRNet/PRNet_16_TCIA_large_500_48_128
+prnet_save_name  = weights/PRNet_16_TCIA_large_500_48_128
 best_loss          = 1000
