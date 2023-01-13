@@ -31,6 +31,8 @@ Prepare your data in `data/Your_Data_Name/`. The data format should be like:
         ├── ...
 ```
 Actually, you can customize the names of your images and labels. Just record their pathes in the corresponding txt files in `config/data/Your_Data_Name`. You can refer to the files in `config/data/TCIA/` as an example.
+### Pretrained Model
+The pretrained model for PRNet and Unet is avaliable [here](https://drive.google.com/drive/folders/1RGxeU_VRczBYuor-gKYQh2iQ50obRZKV?usp=sharing). Just place them in the `weights/`.
 ### Train PRNet
 - To train the PRNet, run `bash train_prnet.sh`.
 ### Generate Coarse Segmentations
