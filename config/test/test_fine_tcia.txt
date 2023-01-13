@@ -23,4 +23,4 @@ input_channel           = 1
 
 [testing]
 load_pretrained_model    = True
-pretrained_model_path    = weights/Unet/Unet_12_96_96_cedc_tcia_plc_best.tar
+pretrained_model_path    = weights/Unet_12_96_96_cedc_tcia_plc_best.tar
