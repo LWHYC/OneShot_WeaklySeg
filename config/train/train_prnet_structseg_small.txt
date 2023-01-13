@@ -18,7 +18,7 @@ input_channel           = 1
 
 [training]
 load_weight        = False
-prnet_load_path     = ../weights/PRNet/
+prnet_load_path     = ../weights/
 learning_rate      = 1e-4
 decay              = 1e-4
 maximal_epoch      = 300
@@ -35,5 +35,5 @@ test_iter          = 10
 print_step         = 40
 random_seed        = 133
 model_pre_trained  = 
-prnet_save_name  = ../weights/PRNet/PRNet_16_structseg_small_60_48_128
+prnet_save_name  = ../weights/PRNet_16_structseg_small_60_48_128
 best_loss          = 1000
