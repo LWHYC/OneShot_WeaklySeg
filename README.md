@@ -9,6 +9,28 @@ Pytorch >= 1.4, SimpleITK >= 1.2, scipy >= 1.3.1, nibabel >= 2.5.0, GeodisTK and
 ## Usages
 ### Dataset
 You could download the processed dataset from: [StructSeg](https://structseg2019.grand-challenge.org/Home/) task1 (Organ-at-risk segmentation from head & neck CT scans): [BaiDu Yun](https://pan.baidu.com/s/1VV8VqJ39wKvlF-mh8b6IVg?pwd=ic6g) or [Google Drive](https://drive.google.com/file/d/1TlMfWvgSd3kAh3Eq80DVoboZ42FbLMvE/view?usp=sharing) into `data/` and unzip them. For TCIA-Pancreas, please cite the original paper (Deeporgan: Multi-level deep convolutional networks for automated pancreas segmentation).
+#### Extend to Your Dataset
+Prepare your data in `data/Your_Data_Name/`. The data format should be like:
+```
+    data/Your_Data_Name/
+    ├── train
+    │   ├── 1
+    │     ├── rimage.nii.gz
+    │     ├── rlabel.nii.gz            
+    │   ├── 2
+    │   ├── ...
+    ├── valid
+    │   ├── n
+    │     ├── rimage.nii.gz
+    │     ├── rlabel.nii.gz
+    │   ├── ...
+    └── test
+        ├── N
+          ├── rimage.nii.gz
+          ├── rlabel.nii.gz
+        ├── ...
+```
+Actually, you can customize the names of your images and labels. Just record their pathes in the corresponding txt files in `config/data/Your_Data_Name`. 
 ### Train PRNet
 - To train the PRNet, run `bash train_prnet.sh`.
 ### Generate Coarse Segmentations
