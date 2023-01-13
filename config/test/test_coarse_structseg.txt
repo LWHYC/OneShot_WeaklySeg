@@ -34,5 +34,5 @@ distance_ratio          = [60, 60, 60]
 
 [testing]
 load_weight        = True
-coarse_pnet_load_path   = weights/PRNet/PRNet_16_structseg_large_700_500_48_128_best.tar
-fine_pnet_load_path = weights/PRNet/PRNet_16_structseg_small_60_48_128_best.tar
+coarse_pnet_load_path   = weights/PRNet_16_structseg_large_700_500_48_128_best.tar
+fine_pnet_load_path = weights/PRNet_16_structseg_small_60_48_128_best.tar
